@@ -1,6 +1,7 @@
 #rounds {
     font-size: 1.7rem;
     flex: 1;
+    color: white !important;
 }
 
 #time-left {
@@ -197,11 +198,17 @@ input[type="button"]:active,
 .header-button {
     padding: 0.2rem;
     background-color: transparent;
+    color: white !important;
 }
 
 .header-button-image {
     width: 1.7rem;
     height: 1.7rem;
+}
+
+
+#Layer_1 {
+   fill: white;
 }
 
 .dot {
