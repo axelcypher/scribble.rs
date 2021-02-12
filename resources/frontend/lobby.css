@@ -14,7 +14,7 @@
 }
 
 .guess-letter-underline {
-    border-bottom: 0.3rem black solid;
+    border-bottom: 0.3rem white solid;
 }
 
 .guess-letter {
@@ -115,6 +115,7 @@
     overflow-y: scroll;
     word-break: break-all;
     background-color: white;
+    color: black;
 }
 
 #word-container {
@@ -320,6 +321,7 @@ input[type="button"]:active,
     display: grid;
     grid-template-columns: fit-content(100%) auto;
     grid-template-rows: 1fr 1fr;
+    color: black;
 }
 
 .player + .player {
