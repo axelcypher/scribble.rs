@@ -67,7 +67,9 @@
     flex-direction: column;
     display: none;
     border: none;
-    background-color: white;
+    background-image: URL(https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/1e9108109959233.5fe0650d6b7c4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     flex: 1 1;
     margin: 0 1rem 0 1rem;
     padding: 1rem;
