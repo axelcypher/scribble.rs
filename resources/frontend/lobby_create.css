@@ -9,7 +9,7 @@
 
 .content-container {
     display: block;
-    background-color: rgb(250, 192, 202);
+    background-color: #5C6673;
     padding: 1rem 3rem 1rem 3rem;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .tab-label {
-    background-color: rgb(236, 234, 234);
+    background-color: #161D26;
     border-bottom: 0.3rem solid #cac5c5;
     outline: none;
     cursor: pointer;
@@ -102,7 +102,7 @@
 
 .table-wrapper {
     flex: 1;
-    border: 1px solid slategray;
+    border: 1px solid #2C3540;
     overflow-y: scroll;
 }
 
