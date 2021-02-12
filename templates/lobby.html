@@ -750,7 +750,7 @@
 
             //If a player doesn't choose, the dialog will still be up.
             wordDialog.style.visibility = "hidden";
-            playWav('/scribble/resources/end-turn.wav');
+            playWav('/resources/end-turn.wav');
 
             clear(context);
 
@@ -771,7 +771,7 @@
 
             allowDrawing = false;
         } else if (parsed.type === "your-turn") {
-            playWav('/scribble/resources/your-turn.wav');
+            playWav('/resources/your-turn.wav');
 
             promptWords(parsed.data[0], parsed.data[1], parsed.data[2]);
         } else if (parsed.type === "drawing") {
