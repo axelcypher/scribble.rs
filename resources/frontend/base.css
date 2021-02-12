@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Montserrat';
     font-weight: normal;
-    src: local('Monserrat'), url(/resources/Montserrat-Regular.otf) format("opentype");
+    src: local('Monserrat'), url(/skribble/resources/Montserrat-Regular.otf) format("opentype");
 }
 
 @font-face {
     font-family: 'Montserrat';
     font-weight: bold;
-    src: local('Monserrat Bold'), url(/resources/Montserrat-Bold.otf) format("opentype");
+    src: local('Monserrat Bold'), url(/skribble/resources/Montserrat-Bold.otf) format("opentype");
 }
 
 html, body {
